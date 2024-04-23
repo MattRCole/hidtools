@@ -20,10 +20,8 @@ You'll need the following tools
 First, you'll need to download the nuget packages:
 
 ```shell
-mono --runtime=v4.0 [path-to-nuget]/nuget.exe ./Waratah/Waratah.sln
+mono --runtime=v4.0 [path-to-nuget]/nuget.exe -restore ./Waratah/Waratah.sln
 ```
-
-Or, if you've created a `nuget` alias, you can just use `nuget`
 
 ### Building the project
 
